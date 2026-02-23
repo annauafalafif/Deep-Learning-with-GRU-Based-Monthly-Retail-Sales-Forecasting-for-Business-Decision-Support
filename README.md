@@ -5,18 +5,13 @@ Project Overview
 
 Retail sectors face significant challenges in balancing product availability with dynamic market demands. This project implements a Deep Learning approach using Gated Recurrent Units (GRU) to predict monthly retail sales. By leveraging the Kaggle "Predict Future Sales" dataset, the model captures complex temporal dependencies and seasonal patterns to support effective business decision-making and inventory optimization.
 
-
 Model Architecture
 
 The core of this system is a Gated Recurrent Unit (GRU) network, chosen for its computational efficiency and its ability to solve the vanishing gradient problem.
 Key Components:
-
 GRU Layer: 64 units were used to capture both short-term and long-term temporal dependencies in sales data.
-
 Layer Normalization: Applied to stabilize activation distributions and accelerate training convergence.
-
 Activation: ReLU was utilized in the dense layers for non-linear feature extraction.
-
 Regularization Strategy: Systematically experimented with L2 (Weight Decay) and Dropout across multiple rates to find the optimal balance between bias and variance.
 
 
